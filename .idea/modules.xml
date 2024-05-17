@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlgoStruDat.iml" filepath="$PROJECT_DIR$/AlgoStruDat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Double linked list/Double linked list.iml" filepath="$PROJECT_DIR$/Double linked list/Double linked list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/Jobsheet 6.iml" filepath="$PROJECT_DIR$/sorting/Jobsheet 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3/Week3.iml" filepath="$PROJECT_DIR$/Week3/Week3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dumbass soul/dumbass soul.iml" filepath="$PROJECT_DIR$/dumbass soul/dumbass soul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/midterm exam/midterm exam.iml" filepath="$PROJECT_DIR$/midterm exam/midterm exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz2/quiz2.iml" filepath="$PROJECT_DIR$/quiz2/quiz2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searching/searching.iml" filepath="$PROJECT_DIR$/searching/searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stacking/stacking.iml" filepath="$PROJECT_DIR$/stacking/stacking.iml" />
+    </modules>
+  </component>
+</project>
