@@ -218,17 +218,17 @@ public class DoubleLinkedList {
             ind++;
         }
         Node tmp2 = head;
-        if (ind %2 == 0) {
+        if (ind %2 == 1) {
             ind /= 2;
             System.out.println("Even." + "\n Data found at index " + ind );
-            for(int i=0;i<ind-1;i++){
+            for(int i=0;i<ind;i++){
                 tmp2 = tmp2.n;
             }
-            median = tmp2.data;
+            median = (double) (tmp2.data + tmp2.n.data) /2;
         } else {
             ind /= 2;
             System.out.println("Odd." + "\n Data found at index " + ind);
-            for(int i=0;i<ind-1;i++){
+            for(int i=0;i<ind;i++){
                 tmp2 = tmp2.n;
             }
             median = tmp2.data;
@@ -265,8 +265,11 @@ public class DoubleLinkedList {
         Node obj;
         obj = dll.getNodeByIndex(4);
         System.out.println("The value of the data is " + obj.data);
+        dll.print();
         System.out.println("The median data are " + medians);
         dll.deleteFirst();
+        double medians2 = dll.getMedian();
+        System.out.println("The median data are " + medians2);
         dll.print();
         //continue to call addLast, deleteLast, printFromTail,
         //getPositionFromTail, getLastPositionFromTail,
